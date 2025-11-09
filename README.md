@@ -29,7 +29,7 @@ $$
 def D(n):
     s = str(n)
     m = len(s) - 1
-    if m <= 0:
+    if m == 0:
         return 0.0
     total = sum(abs(int(s[i+1]) - int(s[i])) for i in range(m))
     return (total / m)
