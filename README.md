@@ -7,7 +7,7 @@ It also explores related variance-based metrics such as **R(n)** for measuring n
 
 ## Definition
 
-Let $n$ have decimal digits $d_1, d_2, ..., d_L$.
+Let $n$ have numerical digits $d_1, d_2, ..., d_L$.
 
 Define
 
