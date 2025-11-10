@@ -27,12 +27,13 @@ $$
 
 ```python
 def D(n):
-    s = str(n)
-    m = len(s) - 1
-    if m == 0:
-        return 0.0
-    total = sum(abs(int(s[i+1]) - int(s[i])) for i in range(m))
-    return (total / m)
+    s=str(n)
+    total = 0
+    if len(s) == 1:
+        return 0
+    for i in range(len(s)-1):
+        total += abs(int(s[i+1])-int(s[i]))
+    return (total/(len(s)-1))
 ```
 ---
 ## Example values of $D(n)$
