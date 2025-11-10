@@ -47,7 +47,7 @@ $D(111111)$ = $0.0$
 
 ## Concept
 
-While related functions such as A297330 measure the total digit variation, $D(n)$ normalizes this measure by the number of digit transitions, producing a mean rate of change.  
+While related functions such as `A297330` measure the total digit variation, $D(n)$ normalizes this measure by the number of digit transitions, producing a mean rate of change.  
 This allows comparisons between numbers of different lengths and provides a basis for digit-based randomness and complexity analysis.
 
 ---
